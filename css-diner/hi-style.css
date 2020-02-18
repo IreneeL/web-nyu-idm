@@ -26,12 +26,12 @@ body {
   font-family: 'Lacquer', sans-serif;
 }
 
-img *{
+/* img *{
   width: 50%;
   padding: 5em;
-}
+} */
 
-.first h1{
+.first h1{ 
   color:#cf7269;
   font-family: 'Press Start 2P', cursive;
   font-size:3em;
