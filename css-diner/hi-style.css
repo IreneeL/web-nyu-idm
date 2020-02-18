@@ -1,0 +1,86 @@
+
+/* This is default helpul CSS to include - dont edit this part unless... you want to */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* THE END of default helpful basic CSS to include. EDIT the stuff BELOW this line*/
+
+/* @font-face {
+  /* font-family: 'violet';
+  src: url('./fonts/VioletSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal; */
+/*  */
+
+body {
+  background-color: #fff2e6;
+  color: #004d00;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Lacquer', sans-serif;
+}
+
+img *{
+  width: 50%;
+  padding: 5em;
+}
+
+.first h1{
+  color:#ffb3b3;
+  font-family: 'Press Start 2P', cursive;
+  font-size:3em;
+}
+
+h1 {
+font-family: 'Tomorrow', sans-serif;
+  font-size: 3em;
+  border: 10px solid #ffff80;
+}
+h2{
+  font-size: 60px;
+}/* Level 1 :Type Selector-Select elements by their type
+Here the code selected all h1 and h2 element in the html tabs to make a few changes.
+h1 is the title of the page so I enlarged it and also enlarged h2 to emphasize the
+idea I want to express.*/
+
+.reason {
+  font-family: 'Passion One', cursive;
+  font-size: 50px;
+  color: #ffd480;
+}/* level 6:Class Selector-Select elements by their class
+I selected all the elements under the class "reason" and changed their color,
+font size and the font. This uniforms the page so all my reasons for choosing
+the drink can be in a different color.*/
+
+p + p1{
+  font-family: 'Passion One', cursive;
+  font-size:70px;
+  color: #ff4d4d;
+}/* level 12:Adjacent Sibling Selector-Select an element that directly follows another element
+This code selects the p1 tag that directly follows the p tag. Since I only have
+one p1 tag in my html codes, it selects that only one. And I changed the font and
+color and font size.  */
+
+.second p:nth-child(4){
+  color:#381515;
+  font-family: 'Baloo', cursive;
+  font-size:30px;
+}/* level 18: Nth Child Pseudo-selector-Select an element by its order in another element.
+This code is selecting the 4th element in order in the class named second. I have
+a total of 4 element in the class, and the 4th one is me explaining something.
+I selected it and changed the font, color, and font size.  */
+
+.first p:nth-of-type(even){
+  color:#381515
+  font-size:30px;
+}/* level 21: Nth of Type Selector-Selects a specific element based on its type and order in another element - or even or odd instances of that element.
+This code is selecting the even number of element p in the class named first and
+changing its font size and color. If I have a few more lines of code, it will
+select every even p and change it. But since I only have 2 p tags, it automatically
+selects the second one.*/
