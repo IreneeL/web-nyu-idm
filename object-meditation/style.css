@@ -16,51 +16,70 @@ body {
 } */
 
 body {
-  background-color: lightblue;
+  background-image: url('assets/background.jpg');
+  background-position:top;
+  background-repeat: repeat-y;
+  background-attachment: scroll;
+  background-color: white;
   color: black;
   text-align: center;
   font-size: 15px;
   font-family: 'Lacquer' ;
 }
 
- h1 {
+ /* h1 {
   padding: 5px;
   background-color: #cae8ca;
   border: 2px solid #4CAF50;
- }
+ } */
 
  p1 {
    font-size: 20px;
  }
 
  p2 {
+   display: flex;
+   justify-content: flex-end;
+   padding-right: 300px;
    color: black;
-   font-size: 13px;
-   /* text-align: left; */
-   position: relative;
+   font-size: 25px;
+      /* text-align: left; */
+   /* position: relative;
    top:150px;
-   right: 100px;
+   right: 100px; */
    font-family: 'Oxanium';
-
  }
 
 p3 {
-  font-size: 13px;
-  position: relative;
-  left: 200px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 100px;
+  font-size: 25px;
+  /* position: relative;
+  left: 200px; */
   font-family: 'Oxanium';
   text-align: right;
 }
 
-.white img {
+img {
   width: 100px;
-  height: 100px;
-  position: relative;
-  top: 30px;
-  right: 100px;
+  height: 90px;
 }
 
-p2#w {
+.left img{
+  display: flex;
+  flex-direction: column;
+  padding-left: 630px;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  padding-left: 220px;
+  padding-top: 100px;
+}
+
+/* p2#w {
   text-align: left;
   position: absolute;
   top: 180px;
@@ -70,9 +89,7 @@ p2#w {
 
 .white img:hover p2#w {
   visibility: visible;
-
-
-}
+} */
 
 
 @media only screen and (max-width: 600px) {
