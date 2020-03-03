@@ -66,13 +66,13 @@ img {
   height: 90px;
 }
 
-.left img{
+.left {
   display: flex;
   flex-direction: column;
-  padding-left: 630px;
+  padding-right: 210px;
 }
 
-.right{
+.right {
   display: flex;
   flex-direction: column;
   padding-left: 220px;
