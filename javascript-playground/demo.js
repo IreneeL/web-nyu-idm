@@ -31,4 +31,4 @@ console.log(arrayAsString);
 
 $('#name').html(namesArray[n]);
 
-$('#names').html(arrayAsString);x
+$('#names').html(arrayAsString);
