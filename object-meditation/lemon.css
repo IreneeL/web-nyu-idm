@@ -10,3 +10,13 @@ body {
 
 body {
   background-image: url('assets/lemonsong.jpg');
+}
+
+h1{
+  font-family: 'El Messiri', sans-serif;
+}
+
+p {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+}

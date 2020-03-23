@@ -19,6 +19,11 @@ body {
   font-family: 'Lacquer' ;
 }
 
+p {
+  font-size:20px;
+  color: white;
+}
+
 .tooltip{
   position: relative;
   display: inline-block;
@@ -102,11 +107,6 @@ img {
 }
 .right img{
   margin:18px;
-}
-
-lemon.html {
-  background: white;
-
 }
 
 @media only screen and (min-width: 600px) {
