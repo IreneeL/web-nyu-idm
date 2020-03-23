@@ -79,35 +79,6 @@ body {
   opacity: 1;
 }
 
- p1 {
-   font-size: 20px;
- }
-
- p2 {
-   /* display: flex;
-   justify-content: center; */
-   position: absolute;
-   white-space: nowrap;
-   margin-left:100px;
-   margin-top: 50px;
-   color: black;
-   font-size: 50px;
-   font-family: 'Oxanium';
-   border: 3px solid pink;
- }
-
-p3 {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    white-space: nowrap;
-    margin-left: -80px;
-    margin-top: -100px;
-    font-size: 50px;
-    border: 3px solid pink;
-    font-family: 'Oxanium';
-}
-
 img {
   width: 130px;
   height: 120px;
@@ -116,7 +87,6 @@ img {
 .left {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   margin-right: 210px;
   margin-top: 25px;
 }
@@ -134,6 +104,10 @@ img {
   margin:18px;
 }
 
+lemon.html {
+  background: white;
+
+}
 
 @media only screen and (min-width: 600px) {
   body {
