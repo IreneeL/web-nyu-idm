@@ -31,7 +31,7 @@ body {
   padding: 5em;
 } */
 
-.first h1{ 
+.first h1{
   color:#cf7269;
   font-family: 'Press Start 2P', cursive;
   font-size:3em;
@@ -86,3 +86,30 @@ This code is selecting the even number of element p in the class named first and
 changing its font size and color. If I have a few more lines of code, it will
 select every even p and change it. But since I only have 2 p tags, it automatically
 selects the second one.*/
+
+/* for iphone 6/7/8 */
+@media only screen and (min-width: 375px){
+  img {
+    width: 375px;
+    height:300px;
+  }
+
+}
+
+/* for iphone 6/7/8 plus */
+@media only screen and (min-width: 414px){
+  img {
+    width: 414px;
+    height:330px;
+  }
+
+}
+
+/* for ipad */
+@media only screen and (min-width: 768px){
+  img {
+    width: 768px;
+    height: 700px;
+  }
+
+}
