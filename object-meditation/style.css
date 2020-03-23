@@ -11,9 +11,9 @@ body {
 body {
   background-image: url("assets/watercolor.JPG");
   background-repeat: no-repeat;
-   background-size: 1500px 1000px;
-   background-attachment: fixed;
- background-position: center;
+  background-size: 1500px 1000px;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 h1 {
