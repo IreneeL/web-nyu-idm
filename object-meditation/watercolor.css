@@ -111,40 +111,41 @@ img {
   margin:18px;
 }
 
-/* for iphone 6/7/8 */
-@media only screen and (min-width: 375px){
+/* for ipad */
+@media only screen and (max-width: 768px){
   body {
-  background-size: 375px 330px;
+  background-size: 768px 730px
 }
-  img {
-    width: 80px;
-    height: 70px;
-  }
-  .left {
-    margin-right: 500px;
-    margin-top: 25px;
-  }
-  .right {
-    padding-left: 250px;
-    padding-top: 90px;
-  }
-  p{
-    font-size: 15px;
-  }
-  .tooltip .tooltipright{
-    width: 220px;
-    font-size: 22px;
-    top: 15%;
-  }
-  .tooltip .tooltipleft{
-    width: 210px;
-    font-size: 22px;
-    top: 15%;
-  }
+img {
+  width: 150px;
+  height: 140px;
+}
+.left {
+  margin-right: 500px;
+  margin-top: 25px;
+}
+.right {
+  padding-left: 500px;
+  padding-top: 90px;
+}
+p{
+  font-size: 30px;
+}
+.tooltip .tooltipright{
+  width: 450px;
+  font-size: 40px;
+  top: 15%;
+}
+.tooltip .tooltipleft{
+  width: 450px;
+  font-size: 40px;
+  top: 15%;
+}
 }
 
+
 /* for iphone 6/7/8 plus */
-@media only screen and (min-width: 414px){
+@media only screen and (max-width: 414px){
   body {
   background-size: 414px 360px;
 }
@@ -175,34 +176,35 @@ p{
 }
 }
 
-/* for ipad */
-@media only screen and (min-width: 768px){
+
+/* for iphone 6/7/8 */
+@media only screen and (max-width: 375px){
   body {
-  background-size: 768px 730px
+  background-size: 375px 330px;
 }
-img {
-  width: 150px;
-  height: 140px;
-}
-.left {
-  margin-right: 500px;
-  margin-top: 25px;
-}
-.right {
-  padding-left: 500px;
-  padding-top: 90px;
-}
-p{
-  font-size: 30px;
-}
-.tooltip .tooltipright{
-  width: 450px;
-  font-size: 40px;
-  top: 15%;
-}
-.tooltip .tooltipleft{
-  width: 450px;
-  font-size: 40px;
-  top: 15%;
-}
+  img {
+    width: 80px;
+    height: 70px;
+  }
+  .left {
+    margin-right: 500px;
+    margin-top: 25px;
+  }
+  .right {
+    padding-left: 250px;
+    padding-top: 90px;
+  }
+  p{
+    font-size: 15px;
+  }
+  .tooltip .tooltipright{
+    width: 220px;
+    font-size: 22px;
+    top: 15%;
+  }
+  .tooltip .tooltipleft{
+    width: 210px;
+    font-size: 22px;
+    top: 15%;
+  }
 }
