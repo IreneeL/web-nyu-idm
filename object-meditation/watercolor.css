@@ -1,0 +1,127 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url('assets/background.jpg');
+  background-position:top;
+  background-repeat: repeat-y ;
+  background-attachment: scroll;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Lacquer' ;
+}
+
+p {
+  font-size:32px;
+  color: white;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  margin: 0;
+}
+
+.tooltip{
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltipright{
+  visibility: hidden;
+  width: 500px;
+  font-size: 40px;
+  font-family: 'El Messiri', sans-serif;
+  background-color: rgba(240,240,240,0.7);
+  color: black;
+  text-align: center;
+  border:3px solid black;
+  border-radius: 6px;
+  padding: 10px ;
+  position: absolute;
+  z-index: 1;
+  top: 15%;
+  left: 150%;
+  margin-left: -50px;
+  opacity: 0;
+  transition: opacity 1%;
+}
+
+.tooltip:hover .tooltipright{
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip{
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltipleft{
+  visibility: hidden;
+  width: 500px;
+  font-size: 40px;
+  font-family: 'El Messiri', sans-serif;
+  background-color: rgba(240,240,240,0.7);
+  color: black;
+  text-align: center;
+  border:3px solid black;
+  border-radius: 6px;
+  padding: 10px ;
+  position: absolute;
+  z-index: 1;
+  top: 15%;
+  right: 110%;
+  margin-left: -50px;
+  opacity: 0;
+  transition: opacity 1%;
+}
+
+.tooltip:hover .tooltipleft{
+  visibility: visible;
+  opacity: 1;
+}
+
+img {
+  width: 130px;
+  height: 120px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 210px;
+  margin-top: 25px;
+}
+.left img{
+  margin:18px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 220px;
+  padding-top: 90px;
+}
+.right img{
+  margin:18px;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* white-space: nowrap; */
+    /* float: right; */
+    /* position: absolute; */
+    /* padding-left: 70px; */
+    /* padding-bottom: 500px; */
+    /* font-size: 25px;
+    font-family: 'Oxanium';
+    border: 3px solid #73AD21; */
+  }
+}
