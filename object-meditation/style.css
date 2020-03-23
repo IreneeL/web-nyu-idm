@@ -19,7 +19,15 @@ body {
 h1 {
   color: white;
   text-align: center;
-  margin-top: 200px;
-  font-size: 50px;
+  margin-top: 350px;
+  font-size: 80px;
   font-family: 'Bungee Shade', cursive;
+}
+
+@media only screen and (max-width: 375px){
+
+  h1 {
+    margin-top: 200px;
+  }
+
 }
