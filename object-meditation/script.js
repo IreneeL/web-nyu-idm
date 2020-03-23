@@ -81,7 +81,7 @@ $(document).ready(function() {
   $("#dirtp").click(function() {
     $(this).attr("src", "assets/dirt.png");
     $("body").css({
-      "background-image": "url('assets/dirtback.jpg')"
+      "background-image": "url('assets/dirtt.jpg')"
     });
   });
 
