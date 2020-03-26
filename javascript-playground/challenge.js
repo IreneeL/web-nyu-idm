@@ -24,10 +24,11 @@ function myAlphabetLengthIf(max) {
 myAlphabetLengthIf();
 // 4. Declare and initialize an array called 'colors' with 5 different string values representing the names of 5 colors of your choosing
 // push your edits to github!!
-let Mycolors = ['red', 'blue', 'pink', 'green', 'black'];
+let myColors = ['red', 'blue', 'pink', 'green', 'black'];
 
 // 5.  Console.log each item in the array
 // push your edits to github!!
+console.log(myColors);
 
 // 6. Declare an empty string variable called 'text'. Each time you console.log a color from the above challenge number 2, add your color to this variable.
 // push your edits to github!!
