@@ -47,8 +47,6 @@ for (i=0; i< namesArray.length; i++){
 }
 
 
-
-
 $("#listNames").html(text);
 
 
